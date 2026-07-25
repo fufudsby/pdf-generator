@@ -1,0 +1,9 @@
+version: '3.2'
+services:
+  app:
+    image: pdf-generator
+    restart: always
+    build: .
+    env_file: .env
+    ports:
+      - 3102:3102

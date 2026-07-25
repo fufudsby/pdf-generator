@@ -1,0 +1,40 @@
+# dependencies
+node_modules
+build
+.cache
+
+# yarn.lock
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+.npm
+web_modules/
+
+# misc
+.DS_Store
+
+# local env files
+.env
+.env.local
+.env.*.local
+.envrc
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vscode
+
+# files
+server.js
+yarn.lock
+
+#folders
+public/screenshot/*
+public/images/screenshot/*
+screenshot/*
